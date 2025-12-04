@@ -4,8 +4,13 @@
 }
 
 body {
-  padding: 20px;
-  background: #f7f7f7;
+ padding: 20px;
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 h1 {
